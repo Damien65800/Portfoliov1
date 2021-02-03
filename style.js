@@ -19,25 +19,31 @@ window.onload = function () {
     $('#un').click(function () {
         if ($('#un').hasClass('active')) {
             $('.un').css("opacity", "1");
+            $('.trois').css("opacity", "0");
+            $('.deux').css("opacity", "0");
         }
         else {
             $('.un').css("opacity", "0");
         }
     });
     $('#deux').click(function () {
-        if ($('#un').hasClass('active')) {
-            $('.un').css("opacity", "1");
+        if ($('#deux').hasClass('active')) {
+            $('.deux').css("opacity", "1");
+            $('.un').css("opacity", "0");
+            $('.trois').css("opacity", "0");
         }
         else {
-            $('.un').css("opacity", "0");
+            $('.deux').css("opacity", "0");
         }
     });
     $('#trois').click(function () {
-        if ($('#un').hasClass('active')) {
-            $('.un').css("opacity", "1");
+        if ($('#trois').hasClass('active')) {
+            $('.trois').css("opacity", "1");
+            $('.deux').css("opacity", "0");
+            $('.un').css("opacity", "0");
         }
         else {
-            $('.un').css("opacity", "0");
+            $('.trois').css("opacity", "0");
         }
     });
     $(window).scroll(function () {
