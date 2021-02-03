@@ -490,3 +490,7 @@ textarea.form-control1 {
 .btn-pri{
   transition: transform 0.5s!important;
 }
+
+.list-inline {
+  padding-left: 45px!important;
+}
