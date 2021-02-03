@@ -356,16 +356,16 @@ nav{
 
 
 #resumeProficiencies {
-     width: 50%;
-     margin-top: 100px;
-     position: absolute;
-     left: 30%;
-     animation-name: showMenu;
-     animation-timing-function:ease;
-     animation-fill-mode: forwards;
-     animation-delay: 3s;
-     animation-duration: 3s;
-     opacity: 0;
+  width: 50%;
+  margin-top: 100px;
+  position: absolute;
+  left: 30%;
+  animation-name: showMenu;
+  animation-timing-function:ease;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+  animation-duration: 3s;
+  opacity: 0;
 }
 
 #resumeProficienciesTop {
@@ -506,4 +506,44 @@ textarea.form-control1 {
 
 .contact{
   margin-top: 100px;
+}
+
+@media ( max-height: 830px){
+  #resumeProficiencies{
+    margin-top: 50px;
+  }
+}
+
+@media ( max-height: 740px){
+  #resumeProficiencies{
+    margin-top: 0px;
+  }
+}
+
+@media ( max-height: 700px){
+  #resumeProficienciesTop{
+    margin-top: 0px;
+    line-height: 1.25;
+  }
+}
+
+@media ( max-width: 1600px){
+  .form{
+    left: 23%;
+    width: 40%;
+  }
+}
+@media ( max-width: 1300px){
+  .form{
+    left: 15%;
+  }
+  .mapouter{
+    width: 380px!important;
+  }
+  .gmap_canvas{
+    width: 350px!important;
+  }
+  .list-inline li {
+    display: block;
+  }
 }
