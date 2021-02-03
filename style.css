@@ -104,6 +104,7 @@ b{
     color: white;
     font-weight: bold;
     font-size: 75px;
+    margin-left: 40px;
 }
 nav {
     position: fixed;
