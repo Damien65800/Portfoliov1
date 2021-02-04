@@ -7,11 +7,9 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Roboto Slab', serif;
     overflow-x: hidden;
     margin: 0;
 }
-
 html::-webkit-scrollbar-thumb {
     background: white;
     border-radius: 10px;
@@ -209,7 +207,7 @@ nav{
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-    height: 120vh;
+    height: 95vh;
 }
 
 .timeline{
@@ -525,6 +523,9 @@ textarea.form-control1 {
     margin-top: 0px;
     line-height: 1.25;
   }
+  .contact{
+    margin-top: 0;
+  }
 }
 
 @media ( max-width: 1600px){
@@ -546,4 +547,19 @@ textarea.form-control1 {
   .list-inline li {
     display: block;
   }
+}
+
+.copyright {
+  margin-right: 4%;
+  margin-left: 4%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  width: 90.5%;
+  font-size: 18px;
+  border-top: 3px solid #6b6969;
+}
+
+footer{
+  background-color: #f7efef;
 }
