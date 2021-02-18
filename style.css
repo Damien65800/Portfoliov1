@@ -436,11 +436,11 @@ nav{
 	border-radius: 50%;
 }
 .social-icons.icon-rotate .fa:hover, .social-icons.icon-rotate .fa:active { 
-	-webkit-transform: scale(1.1) rotate(360deg);
-	-moz-transform: scale(1.1) rotate(360deg);
-	-ms-transform: scale(1.1) rotate(360deg);
-	-o-transform: scale(1.1) rotate(360deg);
-	transform: scale(1.1) rotate(360deg);
+	-webkit-transform: scale(1.2) rotate(360deg);
+	-moz-transform: scale(1.2) rotate(360deg);
+	-ms-transform: scale(1.2) rotate(360deg);
+	-o-transform: scale(1.2) rotate(360deg);
+	transform: scale(1.2) rotate(360deg);
 }
  
 .social-icons .fa-facebook{background-color:#3C599F;}  
@@ -570,3 +570,21 @@ canvas{
   background-position: 50% 50%; 
   z-index: -1;
 } 
+
+.punch{
+      color: white;
+      font-weight: bold;
+      font-size: 25px;
+}
+#punch{
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  animation-name: showMenu;
+  animation-timing-function:ease;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+  animation-duration: 3s;
+  opacity: 0;
+
+}
