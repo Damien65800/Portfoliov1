@@ -3,12 +3,15 @@
   }
 
 body{
-    background-image: url(./body2.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
     overflow-x: hidden;
     margin: 0;
+}
+#homeaff{
+  background-image: url(./body2.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 html::-webkit-scrollbar-thumb {
     background: white;
@@ -132,10 +135,10 @@ nav{
 
 @keyframes fadeIn {
     0% {
-      opacity: 1;
+      display: block;
     }
     100% {
-      opacity: 0;
+      display: none;
     }
   }
 .hero {
@@ -193,7 +196,6 @@ nav{
     background-repeat: no-repeat;
     background-size: cover;
     height: 120vh;
-    margin-top: 50vh;
 }
 #competencesaff{
   background-image: url(./body4.png);
