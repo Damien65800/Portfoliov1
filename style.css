@@ -75,7 +75,6 @@ b{
 }
 
 .titre{
-    margin-top: 10px;
     margin-left: 40px;
 }
 .affiche{
@@ -131,6 +130,21 @@ nav{
     background-image: url(./body.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+nav{
+  animation-name: cache;
+  animation-delay: 3s;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+}
+@keyframes cache {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 @keyframes fadeIn {
