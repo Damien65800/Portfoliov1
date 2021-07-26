@@ -84,7 +84,8 @@ b{
 .titreaff{
     color: white;
     font-family: 'Raleway', sans-serif;
-    font-size: 30px;
+    font-size: 40px;
+    font-weight: bold;
     -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
     clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
     transform: translateY(-50px);
@@ -127,7 +128,7 @@ nav{
     animation-delay: 2s;
     animation-duration: 4s;
     animation-fill-mode: both;
-    background-image: url(./body.jpg);
+    background-image: url(./body.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
