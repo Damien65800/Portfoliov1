@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 * {
     box-sizing: border-box;
   }
@@ -96,9 +98,21 @@ b{
     animation-fill-mode: forwards;
 }
 .titre1{
+    color: #689cc2;
+    font-weight: bold;
+    font-size: 150px;
+    text-align: left;
+    margin-left: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.soustitre1{
     color: white;
     font-weight: bold;
     font-size: 150px;
+    text-align: left;
+    margin-left: 15px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .titre2{
